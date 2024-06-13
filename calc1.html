@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="calc1.css">
+ 
+</head>
+<body>
+  <div class="container1">
+    <form>
+      <input type="text" name="field" id="field">
+  
+      <div class="all">
+        <input type="button" value="AC" class="ac" onclick=" result.textContent ='' ">
+        <input type="button" class="dvd" onclick="divide()">
+        <input type="button" value="*" class="asteriks" onclick="multiply()">
+        <input type="button" value="7" class="seven" onclick="field.value+='7'  ">
+        <input type="button" value="8" class='eight' onclick="result.value +='8' ">
+        <input type="button" value="9" class="nine" onclick="result.value +='9'">
+        <input type="button" value="-" class="minus" onclick=" subtract()">
+        <input type="button" value="4" class="four" onclick="result.value +='4'">
+        <input type="button" value="5" class="five" onclick="result.value +='5'">
+        <input type="button" value="6" class="six" onclick="result.value +='6'">
+        <input type="button" value="+" class="plus" onclick=" add()">
+        <input type="button" value="1" class="one" onclick="result.value +='1'">
+        <input type="button" value="2" class="two" onclick="result.value +='2'">
+        <input type="button" value="3" class="three" onclick="result.value +='3'">
+        <input type="button" value="0" class="zero" onclick="result.value +='0'">
+        <input type="button" value="." class="dot" onclick="result.value +='.'">
+        <input type="button" value="=" class="equals" onclick="equals()">
+      </div>
+    </form>
+  </div>
+
+  <script src="calc.js">
+    
+  </script>
+</body>
+</html>
